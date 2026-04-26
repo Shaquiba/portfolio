@@ -17,10 +17,10 @@ const experiences = [
       "Qualified in the internal Hackathon round of Smart India Hackathon 2025, organised by NETAJI SUBHAS UNIVERSITY.",
   },
   {
-    event: "RANCHI HACKS",
-    organiser: "GDG RANCHI",
+    event: "HACK HORIZON",
+    organiser: "ARKA JAIN UNIVERSITY",
     Year: "2026",
-    description: "Made it to the Screening round of Ranchi Hacks 2026.",
+    description: "Out of 160+ teams made it to the top 30",
   },
 ];
 
