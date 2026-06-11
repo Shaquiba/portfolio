@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import photo3 from "../assets/photo3.png";
-import photo1 from "../assets/photo1.jpg";
-import photo2 from "../assets/photo2.png";
-import img3 from "../assets/img3.jpg";
-import img2 from "../assets/img2.jpg";
-import img1 from "../assets/img1.jpg";
+import p11 from "../assets/p11.jpg";
+import p2 from "../assets/p2.jpg";
+import i11 from "../assets/i11.jpg";
+import i22 from "../assets/i22.jpg";
+import i1 from "../assets/i1.jpg";
 import { motion, AnimatePresence, useMotionValueEvent, useScroll } from "framer-motion";
 
 const useIsMobile = (query = "(max-width :639px)") =>{
@@ -33,20 +33,20 @@ export default function Project(){
       title : "K72 Web",
       link :"https://k72web-xi.vercel.app",
       bgColor :"#dc9317",
-      image : isMobile ?photo3 : img3,
+      image : isMobile ?photo3 : i11,
     },
     {
-      title : "Rock Paper Scissors",
-      link : "https://game-eta-beige-47.vercel.app/",
+      title : "Futuristic Landing Page",
+      link : "https://cbncc.vercel.app/",
       bgColor :"#3884d3",
       image :
-      isMobile? photo2 : img2,
+      isMobile? p2 : i22,
     },
     {
       title : "Two Good",
       link : "https://two-good-gamma.vercel.app/",
       bgColor:"#0d4d3d",
-      image : isMobile?photo1 : img1,
+      image : isMobile?p11 : i1,
     }
 ],
 [isMobile]

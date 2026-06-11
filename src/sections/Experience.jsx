@@ -3,24 +3,24 @@ import { useEffect, useState } from "react";
 
 const experiences = [
   {
-    event: "HACK8ON",
-    organiser: "GDG RANCHI & CBNCC",
-    Year: "2025",
+    event: "TECHNICAL TEAM MEMBER",
+    organiser: "CBNCC, NETAJI SUBHAS UNIVERSITY|",
+    Year: "2026-present",
     description:
-      "Got under top 10 in Hackathon conducted by GDG Ranchi in collaboration with CBNCC of NETAJI SUBHAS UNIVERSITY.",
+      "Contributing to the technical events, initiative and collaborating with student developers on project and workshops.",
   },
   {
-    event: "SIH INTERNAL",
-    organiser: "CBNCC",
-    Year: "2025",
+    event: "FRONTEND DEVELOPER",
+    organiser: "Personal projects",
+    Year: "",
     description:
-      "Qualified in the internal Hackathon round of Smart India Hackathon 2025, organised by NETAJI SUBHAS UNIVERSITY.",
+      "Building responsive web applications using React.js , Next.js and Tailwind CSS. Projects are available in the Project section.",
   },
   {
-    event: "HACK HORIZON",
-    organiser: "ARKA JAIN UNIVERSITY",
-    Year: "2026",
-    description: "Out of 160+ teams made it to the top 30",
+    event: "HACKATHONS & COMPETITIONS",
+    organiser: "NSU | SIH | AJU",
+    Year: "2025-2026",
+    description: "Active hackathon participant with achievements including TOP10 in HACK8ON, SIH internal round qualification, and Top 30 out of 160+ teams in HACK HORIZON.",
   },
 ];
 
