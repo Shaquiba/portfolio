@@ -4,6 +4,8 @@ import {motion} from "framer-motion";
 import React from "react";
 import {FaGithub, FaLinkedin, FaXTwitter} from "react-icons/fa6";
 import robo from "../assets/robo.png";
+import resume from "../assets/shaquiba_cv.docx.pdf";
+
 
 const socials =[
   {Icon : FaXTwitter , label: "X" , href : "https://x.com/NaazShaquiba"},
@@ -101,9 +103,13 @@ initial={{opacity:0}}
 animate={{opacity:1}}
 transition={{delay:0.8, duration:0.8}}
 >
-  <a href="Project" className="px-6 py-3 rounded-full font-medium text-lg text-black bg-linear-to-r from-purple-500 to-white
+  <a href="#Project" className="px-6 py-3 rounded-full font-medium text-lg text-black bg-linear-to-r from-purple-500 to-white
   shadow-lg hover:scale-105 transition-all ">View My Work</a>
-  <a href="" className="px-6 py-3 rounded-full text-lg font-medium text-black bg-linear-to-r from-purple-500 to-white
+  <a href={resume}
+  download="Shaquiba_Naaz_Resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-6 py-3 rounded-full text-lg font-medium text-black bg-linear-to-r from-purple-500 to-white
   shadow-lg hover:scale-105 transition-all">My Resume</a>
 </motion.div>
 

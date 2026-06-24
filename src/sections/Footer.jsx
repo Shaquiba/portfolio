@@ -42,11 +42,11 @@ style={{
   whiteSpace:"nowrap",
   textShadow:"0 2px 18px rbga(0,0,0,0.45)"
 }}
->Shaquiba Naaz</h1>
+>My Socials</h1>
 <div className="h-0.75 w-24 md:w-32 rounded-full bg-linear-to-r from-purple-400 via-blue-800 to-white "/>
 <div className="flex gap-5 text-2xl md:text-3xl">
   {socials.map(({Icon, label, href})=>(
-    <motion.a href="href"
+    <motion.a href={href}
     key={label}
     aria-label={label}
     target="_blank"
@@ -67,7 +67,7 @@ style={{
 </div>
 
 <p className="text-gray-300 italic max-w-xl">
-  "Success is when preparation meets opportunity."
+  "Explore my work, projects, and professional journey!"
 </p>
 <p className="text-xs text-gray-400">
   &copy; {new Date().getFullYear()} Shaquiba Naaz. All rights reserved.
